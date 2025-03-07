@@ -2,6 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Roboto } from 'next/font/google';
 import { AboutMe as TAboutMe } from '@/types/Home';
+import home from '../../configs/home.json';
+
 
 const linkedinImage = "/img/linkedin-4.jpg";
 
@@ -26,7 +28,7 @@ export const AboutMe = ({ aboutMe }: AboutMeProps) => {
           <strong className="font-bold"><h1>Clariana</h1></strong>
         </h1>
         <div className="mb-12">
-          <h2 className={`${roboto.className} mb-12`}>I am a front-end developer with a passion for creating interfaces and helping other devs!</h2>
+          <h2 className={`${roboto.className} mb-12`}>{home.aboutMe.description}</h2>
           <Link
             href={contact.link} 
             className="p-3 bg-h-gray-500 w-fit text-xl rounded-lg transition-all hover:bg-opacity-80"

@@ -3,15 +3,10 @@ import { Projects } from '@/components/Home/Projects';
 import { Project, AboutMe as TAboutMe } from '@/types/Home';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
+import home from '../configs/home.json';
 
-interface HomeProps {
-  home: {
-    aboutMe: TAboutMe;
-    projects: Project[];
-  };
-}
 
-const Home = ({ home }: HomeProps) => {
+const Home = () => {
   const { projects, aboutMe } = home;
 
   return (
@@ -29,23 +24,6 @@ const Home = ({ home }: HomeProps) => {
       </div>
     </>
   );
-};
-
-const loadHome = async () => {
-  const res = await fetch(
-    'https://gist.githubusercontent.com/huri3l/b2d6a36f169dfe3fcd11a5dac89d83cc/raw/ad2cd1cd3c858ffd6fd70af5c80bb6bf98ee2cdf/home.json',
-  );
-  const home = await res.json();
-
-  return home;
-};
-
-export const getStaticProps: GetStaticProps<HomeProps> = async () => {
-  const home = await loadHome();
-
-  return {
-    props: { home },
-  };
 };
 
 export default Home;

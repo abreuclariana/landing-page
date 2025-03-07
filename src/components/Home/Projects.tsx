@@ -1,6 +1,7 @@
 import { Project } from '@/types/Home';
 import Image from 'next/image';
 import Link from 'next/link';
+import home from '../../configs/home.json';
 
 interface ProjectsProps {
   projects: Project[];
