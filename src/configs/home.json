@@ -6,9 +6,10 @@
     },
     "description": "I am a front-end developer with a passion for creating interfaces and helping other devs!",
     "contact": {
-      "link": "/contatos",
+      "link": "",
       "label": "Get in touch!"
     },
+
     "techs": [
       {
         "tech": "typescript",
@@ -33,8 +34,8 @@
     ],
     "pfp": {
       "image": {
-        "url": "https://avatars.githubusercontent.com/u/61247833?v=4",
-        "alt": "Foto de Perfil de Clariana"
+        "url": "",
+        "alt": "Clariana Profile"
       },
       "experience": {
         "default": "years of experience",
@@ -44,35 +45,43 @@
   },
   "projects": [
     {
-      "slug": "natura-whitelabel",
-      "name": "Natura Whitelabel",
+      "slug": "Register Authentication",
+      "name": "Register Authentication",
       "image": {
-        "url": "https://i.imgur.com/BSphXgc.png",
+        "url": "https://clariana.netlify.app/img/authentication.png",
         "alt": "Página Inicial do Site da Natura Brasil"
       }
     },
     {
-      "slug": "blobg",
-      "name": "Blob.g",
+      "slug": "API Weather Forecast",
+      "name": "API Weather Forecast",
       "image": {
-        "url": "https://i.imgur.com/Fdl3Lnp.png",
-        "alt": "Blob.g, notícias do mundo dos códigos"
+        "url": "https://clariana.netlify.app/img/time.png",
+        "alt": "Página Inicial do Site da Natura Brasil"
+      }
+    },
+    {
+      "slug": "Web Form Application",
+      "name": "Web Form Application",
+      "image": {
+        "url": "https://clariana.netlify.app/img/login.png",
+        "alt": "login"
       }
     },
     {
       "slug": "userdash",
-      "name": "UserDash",
+      "name": "Modal pop-up",
       "image": {
-        "url": "https://i.imgur.com/bViAwow.png",
-        "alt": "UserDash, dashboard de usuários. Página inicial contendo uma opção para filtrar os usuários ou criar, além de um usuário de exemplo. O usuário de exemplo é Huriel Ferreira Lopes, e-mail: huriel.lopes@exampl.com, celular: 99 99999-9999, país: Brasil, estado: Rio Grande do Sul, enderaço: Rua dos Dados Falsos, 4"
+        "url": "https://clariana.netlify.app/img/modal.png",
+        "alt": "modal pop up"
       }
     },
     {
-      "slug": "videoteca",
-      "name": "Videoteca",
+      "slug": "Drum Sounds Project",
+      "name": "Drum Sounds Project",
       "image": {
-        "url": "https://i.imgur.com/wuTKxK9.png",
-        "alt": "Videoteca, aplicativo para salvar vídeos"
+        "url": "https://clariana.netlify.app/img/drum.png",
+        "alt": "sounds drum"
       }
     }
   ]

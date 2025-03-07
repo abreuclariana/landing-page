@@ -5,7 +5,7 @@ import { AboutMe as TAboutMe } from '@/types/Home';
 import home from '../../configs/home.json';
 
 
-const linkedinImage = "/img/linkedin-4.jpg";
+const linkedinImage = "/img/linkedin.jpg";
 
 
 const roboto = Roboto({
