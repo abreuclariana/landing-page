@@ -72,7 +72,7 @@
       "slug": "userdash",
       "name": "Modal pop-up",
       "image": {
-        "url": "https://clariana.netlify.app/img/modal.png",
+        "url": "/img/modal.png",
         "alt": "modal pop up"
       }
     },

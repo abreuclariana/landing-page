@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -16,10 +17,10 @@ const nextConfig = {
         pathname: '**',
       },
       {
-        protocol: "https",
-        hostname: "clariana.netlify.app",
-        port: "",
-        pathname: "**",
+        protocol: 'https',
+        hostname: 'clariana.netlify.app',
+        port: '',
+        pathname: '**',
       },
     ],
   },
